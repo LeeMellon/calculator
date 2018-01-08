@@ -25,7 +25,7 @@ alert(divide(num1,num2));
 
 
 
-var BMI = function () {
+var BMI = function (){
   weight = parseFloat(prompt("What is your weight?"));
   height = parseFloat(prompt("What is your height?"));
   var weight_mod = weight * .45;
@@ -37,3 +37,16 @@ var BMI = function () {
 }
 
 BMI()
+
+
+
+
+var conversion = function () {
+  temperature = parseFloat(prompt("What is the temperature in farenheit?"));
+  var subtract = temperature - 32;
+  var celsius = subtract / 1.8;
+
+  alert(celsius);
+}
+
+conversion();
